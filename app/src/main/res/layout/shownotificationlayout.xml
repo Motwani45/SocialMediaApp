@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_5mdp"
+    android:paddingBottom="@dimen/_5mdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="@dimen/_60mdp"
+        android:layout_height="@dimen/_60mdp"
+        android:background="@drawable/profilebackground" />
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/notificationprofile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="@dimen/_60mdp"
+        android:layout_height="@dimen/_60mdp"
+        android:padding="5dp"
+        android:src="@drawable/placeholderprofilerohit"
+        />
+
+    <TextView
+        android:id="@+id/notificationtextview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8mdp"
+        android:text="Udit Mentioned You Udit Mentioned You Udit Mentioned You Udit Mentioned You Udit Mentioned You"
+        android:layout_marginEnd="@dimen/_15mdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14font_mdp"
+        app:layout_constraintBottom_toBottomOf="@id/notificationprofile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/notificationprofile"
+        app:layout_constraintTop_toTopOf="@id/notificationprofile"
+        app:layout_constraintVertical_bias="0.26999998" />
+    <TextView
+        android:id="@+id/notificationtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/notificationtextview"
+        app:layout_constraintTop_toBottomOf="@id/notificationtextview"
+        android:text="Just Now"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

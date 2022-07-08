@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/blackshade.xml" value="0.164" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/circlebackground.xml" value="0.13333333333333333" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/circularbutton.xml" value="0.1645" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_add_a_contact_on_phone_interface_symbol_of_a_user_with_a_plus_sign_svgrepo_com.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_add_user_svgrepo_com.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.164" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.164" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_blueperson.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_bluewave.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_camera_svgrepo_com.xml" value="0.1645" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_comment_bubble_with_three_squares_svgrepo_com.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_comment_svgrepo_com.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_comment_svgrepo_com__1_.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_edit_svgrepo_com.xml" value="0.1645" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_email.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_google_icon_logo_svgrepo_com.xml" value="0.1645" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_like_svgrepo_com.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_passwordlock.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_phone_svgrepo_com.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_profession.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/ic_share_arrows_svgrepo_com.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/lloginedittextbackground.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/loginbuttonsignin.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/loginedittextbackground.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/profilebackground.xml" value="0.147" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/recyclerviewitemdecoration.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/storybackground.xml" value="0.147" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/drawable/toolbarbackground.xml" value="0.1635" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout-v23/activity_login.xml" value="0.1578125" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/activity_basic_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/activity_main.xml" value="0.1578125" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/activity_signup.xml" value="0.1578125" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/dashboardlayout.xml" value="0.15677083333333333" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/fragment_add_post.xml" value="0.1" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/fragment_search.xml" value="0.1578125" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/fragment_show_notification.xml" value="0.1" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/myfriendslayout.xml" value="0.16666666666666666" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/shownotificationlayout.xml" value="0.16666666666666666" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/layout/storylayout.xml" value="0.15677083333333333" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/menu/menuitemstoolbar.xml" value="0.15677083333333333" />
+        <entry key="..\:/appsbyme/SocialMediaApp/app/src/main/res/menu/tabs.xml" value="0.1578125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

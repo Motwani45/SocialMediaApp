@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SocialMediaApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/loginpagecolor</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/loginpagecolor</item>
+        <item name="colorSecondaryVariant">@color/loginpagecolor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/loginpagecolor</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BottombarTheme" parent="ThemeOverlay.Material3.BottomAppBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorSecondary">@color/red</item>
+
+    </style>
+
+    <style name="TextInputLayoutTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/loginpagecolor</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_100mdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_100mdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_100mdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_100mdp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+
+    <style name="Theme.SocialMediaApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SocialMediaApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SocialMediaApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

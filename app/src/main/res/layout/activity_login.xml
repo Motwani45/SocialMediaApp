@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".authentication.LoginActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/topview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120mdp"
+        android:background="@color/loginpagecolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/bluewave"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_80mdp"
+        android:background="@drawable/ic_bluewave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topview" />
+
+    <ImageView
+        android:id="@+id/loginpagepersonimageview"
+        android:layout_width="@dimen/_90mdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:layout_marginEnd="@dimen/_10mdp"
+        android:src="@drawable/loginpageperson"
+        app:layout_constraintEnd_toEndOf="@id/topview"
+        app:layout_constraintTop_toTopOf="@id/topview" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15mdp"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:layout_marginEnd="@dimen/_10mdp"
+        android:text="Already Have an Account?"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_22font_mdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/loginpagepersonimageview"
+        app:layout_constraintEnd_toStartOf="@id/loginpagepersonimageview"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/loginpagepersonimageview"
+        app:layout_constraintVertical_bias="0.38000001" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/emailedittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15mdp"
+        android:layout_marginTop="@dimen/_15mdp"
+        android:layout_marginEnd="@dimen/_15mdp"
+        android:background="@drawable/loginedittextbackground"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="@dimen/_10mdp"
+        android:hint="EMAIL"
+        android:inputType="text|textMultiLine"
+        android:padding="@dimen/_15mdp"
+        android:textColor="@color/loginpagecolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bluewave" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/passwordedittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15mdp"
+        android:layout_marginTop="@dimen/_15mdp"
+        android:layout_marginEnd="@dimen/_15mdp"
+        android:background="@drawable/loginedittextbackground"
+        android:drawableStart="@drawable/ic_passwordlock"
+        android:drawablePadding="@dimen/_10mdp"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:padding="@dimen/_15mdp"
+        android:textColor="@color/loginpagecolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailedittext" />
+
+    <Button
+        android:id="@+id/signinbutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15mdp"
+        android:background="@drawable/loginbuttonsignin"
+        android:text="SIGN IN"
+        android:textColor="@color/white"
+        android:padding="@dimen/_10mdp"
+        android:textSize="@dimen/_14font_mdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/passwordedittext"
+        app:layout_constraintStart_toStartOf="@id/passwordedittext"
+        app:layout_constraintTop_toBottomOf="@id/passwordedittext" />
+
+    <TextView
+        android:id="@+id/forgotpasswordtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15mdp"
+        android:text="FORGOT PASSWORD ?"
+        android:textColor="@color/loginpagecolor"
+        android:textSize="@dimen/_12font_mdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/signinbutton"
+        app:layout_constraintStart_toStartOf="@id/signinbutton"
+        app:layout_constraintTop_toBottomOf="@id/signinbutton" />
+
+    <TextView
+        android:id="@+id/ortextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:text="OR"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/forgotpasswordtextview"
+        app:layout_constraintStart_toStartOf="@id/forgotpasswordtextview"
+        app:layout_constraintTop_toBottomOf="@id/forgotpasswordtextview" />
+
+    <Button
+        android:id="@+id/googlesigninbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:drawableStart="@drawable/ic_google_icon_logo_svgrepo_com"
+        android:drawablePadding="@dimen/_15mdp"
+        android:elevation="@dimen/_20mdp"
+        android:gravity="center"
+        android:textSize="@dimen/_14font_mdp"
+        android:text="Sign In with Google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ortextview" />
+
+    <TextView
+
+        android:id="@+id/donthaveaccounttextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20mdp"
+        android:text="Don't Have an Account?"
+        android:textColor="@color/loginpagecolor"
+        android:textSize="@dimen/_16font_mdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/googlesigninbutton"
+        app:layout_constraintStart_toStartOf="@id/googlesigninbutton"
+        app:layout_constraintTop_toBottomOf="@id/googlesigninbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

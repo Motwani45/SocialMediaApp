@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authentication.BasicDetailsActivity">
+
+    <View
+        android:id="@+id/topviewsignup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100mdp"
+        android:background="@color/loginpagecolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/bluewavesignup"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_80mdp"
+        android:background="@drawable/ic_bluewave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topviewsignup" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameinputlayout"
+        style="@style/TextInputLayoutTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15mdp"
+        android:layout_marginEnd="@dimen/_15mdp"
+        android:hint="NAME"
+        app:layout_constraintTop_toBottomOf="@id/bluewavesignup"
+        app:counterTextColor="@color/loginpagecolor"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/loginpagecolor"
+        app:hintTextColor="@color/loginpagecolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="306dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameeddittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_blueperson"
+            android:drawablePadding="@dimen/_10mdp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14font_mdp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/professioninputlayout"
+        android:layout_width="match_parent"
+        style="@style/TextInputLayoutTheme"
+        android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/nameinputlayout"
+        app:endIconMode="clear_text"
+        app:counterTextColor="@color/loginpagecolor"
+        app:endIconTint="@color/loginpagecolor"
+        app:hintTextColor="@color/loginpagecolor"
+        android:layout_marginStart="@dimen/_15mdp"
+        android:layout_marginTop="@dimen/_15mdp"
+        android:layout_marginEnd="@dimen/_15mdp"
+    android:hint="PROFESSION">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/professionedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_profession"
+        android:drawablePadding="@dimen/_10mdp"
+        android:inputType="text"
+        android:textColor="@color/black"
+       />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/abouttextinput"
+        android:layout_width="0dp"
+        style="@style/TextInputLayoutTheme"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/professioninputlayout"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/professioninputlayout"
+        app:layout_constraintTop_toBottomOf="@id/professioninputlayout"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:hint="ABOUT"
+        app:counterEnabled="true"
+        app:counterMaxLength="150"
+        app:endIconMode="clear_text"
+        app:counterTextColor="@color/loginpagecolor"
+        app:endIconTint="@color/loginpagecolor"
+        app:hintTextColor="@color/loginpagecolor">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/aboutedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14font_mdp"
+            android:textColor="@color/black"
+            android:maxLength="150"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/continuebutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15mdp"
+        android:background="@drawable/loginbuttonsignin"
+        android:text="CONTINUE"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14font_mdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/abouttextinput"
+        app:layout_constraintStart_toStartOf="@id/abouttextinput"
+        app:layout_constraintTop_toBottomOf="@id/abouttextinput"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
